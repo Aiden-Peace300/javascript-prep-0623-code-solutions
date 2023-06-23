@@ -16,18 +16,18 @@ console.log(
   "The person's name is",
   fullName
 ); /* the log method of the console object has 2 arguments
-                                                    first argument being a sting the second argument is 'fullname' variable */
+      first argument being a sting the second argument is 'fullname' variable */
 
 console.log(
   "The person's job is",
   person.job
 ); /* the log method of the console object has 2 arguments first argument being a sting
-                                                   the second argument is 'person.job' (dot notation) variable of the person object */
+      the second argument is 'person.job' (dot notation) variable of the person object */
 
 console.log(
   "The person's previous job is",
   person['previousJob']
 ); /* the log method of the console object has 2 arguments first argument being a sting the
-                                                                      second argument is 'person['previousJob']' (bracket notation) variable of the person object */
+      second argument is 'person['previousJob']' (bracket notation) variable of the person object */
 
 console.log(person); // the log method of the console object has 1 argument that argument being person object.
