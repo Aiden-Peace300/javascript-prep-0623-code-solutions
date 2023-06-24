@@ -25,7 +25,7 @@ function convertHoursToMinutes(hours) {
   return hours * 60;
 }
 
-var convertHoursToMinutesResult = convertHoursToMinutes(2, 2); // assigning the result of convertHoursToMinutes() to the convertHoursToMinutesResult variable
+var convertHoursToMinutesResult = convertHoursToMinutes(2); // assigning the result of convertHoursToMinutes() to the convertHoursToMinutesResult variable
 console.log('convertHoursToMinutes Exercise:', convertHoursToMinutesResult); // the log method of the console object calls two arguments string and 'convertHoursToMinutesResult'
 
 /******************************************************************
@@ -84,11 +84,7 @@ console.log('multiplyAndDivideBy5 Exercise:', multiplyAndDivideBy5Result); // th
  subtractTwoNumbers will return a one numeric value.
 *******************************************************************/
 function subtractTwoNumbers(num1, num2) {
-  if (num1 > num2) {
-    return num1 - num2;
-  } else if (num1 < num2) {
-    return num2 - num1;
-  }
+  return num1 - num2;
 }
 
 var subtractTwoNumbersResult = subtractTwoNumbers(35, 10); // assigning the result of subtractTwoNumbers() to the subtractTwoNumbersResult variable
