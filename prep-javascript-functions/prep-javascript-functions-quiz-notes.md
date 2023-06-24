@@ -5,11 +5,20 @@
 After completing this exercise, you should be able to discuss or answer the following questions:
 
 - What are the five parts of a function definition?
-  - Defining Functions
-  - Calling Functions
-  - Returning from Functions
-  - Naming Functions
-  - Anonymous Functions
+  - The function keyword: The function keyword is used to declare a function. It is the
+    first part of a function definition and indicates that you are defining a function.
+  - The function name: The name is used to identify the function and is followed immediately after
+    the function keyword. It is used to refer to the function later when you want to call or invoke it.
+  - Parameters: Parameters are placeholders for values that you can pass to a function when
+    invoking it. They are enclosed in parentheses following the function name. You can define
+    multiple parameters by separating them with commas.
+  - Function body: The function body is enclosed in curly braces ({}) and contains the statements or
+    code that defines what the function does. It is the block of code that will be executed when the
+    function is called.
+  - Return statement: The return statement specifies the value that the function should return when
+    it is called. It is an optional part of a function definition. If a return statement is omitted,
+    the function will still execute its code but will not return any value explicitly. If included, the
+    function will terminate at the return statement and return the specified value.
 
 ---
 
