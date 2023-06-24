@@ -38,7 +38,7 @@ console.log('convertHoursToMinutes Exercise:', convertHoursToMinutesResult); // 
  that argument being a concatenated sting.
 *******************************************************************/
 function getGreeting(name) {
-  return console.log('Hello ' + name);
+  return 'Hello ' + name;
 }
 
 var getGreetingResult = getGreeting('World'); // assigning the result of getGreeting() to the getGreetingResult variable
